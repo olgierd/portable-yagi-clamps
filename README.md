@@ -3,7 +3,7 @@
 
 ## How to print?
 
-I'm using https://dkprojects.net/openscad-threads/ library to render threads. Place is in this directory in order to correctly render the STL.
+I'm using https://dkprojects.net/openscad-threads/ library to render threads. Place it in this directory in order to correctly render the STL.
 
 I've printed mine using PLA, 0.2 mm layer, 0.4 mm nozzle, no supports.
 
