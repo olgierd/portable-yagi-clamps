@@ -36,7 +36,7 @@ module clamp(d_in, thi, h, gap, scr_prot, scr_dia, scr_head_dia, el_hole, scr_nu
             // top part
             cylinder(h=h, d=d_in+thi*2, center=true);
             translate([0,d_in/2+thi,0])
-            cube([d_in+thi*2-4,1,h], center=true);
+            cube([d_in+thi*2,1,h], center=true);
             
             // mounting screw protrusion
             translate([0,-d_in/2-thi-scr_prot,0])
